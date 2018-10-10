@@ -1,0 +1,34 @@
+.Conteneur {
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+
+.conteneur {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	border-width: 2vw;
+	border-color: grey;
+	border-style: solid;
+	border-radius: 1vw;
+	align-content: flex-start;
+	align-items: center;
+}
+
+.image-container {
+	height: 30vw;
+	border-width: 0.5vw;
+	border-color: black;
+	border-style: solid;
+
+}
+.text {
+	height: 30vw;
+	border-width: 0.5vw;
+	border-color: black;
+	border-style: solid;
+	font-weight: bold;
+	font-size: 1.8vw;
+	padding-top: 4vw;
+	padding-left: 1vw;
+}
