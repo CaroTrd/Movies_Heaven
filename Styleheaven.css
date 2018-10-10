@@ -47,4 +47,25 @@
     padding-top: 10px;
 }
 
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color:black;
+}
+
+
+footer ul
+{
+    background-color: #34495E;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+    color: white;
+}
+
 /* */
