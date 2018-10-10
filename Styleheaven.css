@@ -1,6 +1,10 @@
 /* Acceuil css */
 
 /* Navbar */
+.sticky-top
+{
+    margin-top: 10px;
+}
 .bg-light 
 {
     background-color: #34495E!important;
