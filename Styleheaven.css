@@ -1,6 +1,36 @@
+<<<<<<< HEAD
+
+/* PAGE : LAST MOVIES PAGE */
+.titre{
+    text-align: center;
+    margin-top: 50px;
+}
+.titre h1{
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.titre p{
+    margin-bottom: 80px;
+}
+
+figure.figure.col-sm-6.col-lg-3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+figure img:hover p{
+    display: block
+}
+
+
+
+=======
 /* Acceuil css */
 
 /* Navbar */
+.sticky-top
+{
+    margin-top: 10px;
+}
 .bg-light 
 {
     background-color: #34495E!important;
@@ -69,3 +99,4 @@ footer ul
 }
 
 /* */
+>>>>>>> faed1f842fb2364f75baa510bda0bc124c53118f
