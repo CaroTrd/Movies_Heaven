@@ -23,7 +23,7 @@ figure img:hover p{
 
 
 
-=======
+
 /* Acceuil css */
 
 /* Navbar */
@@ -34,6 +34,7 @@ figure img:hover p{
 .bg-light 
 {
     background-color: #34495E!important;
+    box-shadow: 6px 6px 0px gray;
 }
 
 .navbar-light .navbar-brand
@@ -68,13 +69,14 @@ figure img:hover p{
 /* image carousel */
 
 #accueil img
-{
-    height: 600px;
+{   
+
+    height: 650px;
     width: 1200px;
 }
 .vide
 {
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 a
@@ -96,7 +98,45 @@ footer ul
     margin-top: 20px;
     list-style: none;
     color: white;
+    box-shadow: 6px 6px 0px gray;
 }
 
 /* */
->>>>>>> faed1f842fb2364f75baa510bda0bc124c53118f
+
+
+h1 
+{
+    text-align: center;
+    font-size: 3em;
+    margin: 50px;
+    background-color: #34495E;
+    opacity: 0.9;
+    box-shadow: 6px 6px 0px gray;
+    color: white;
+    padding: 10px;
+
+}
+
+p 
+{   
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.3em;
+    color: black;
+
+}
+    #about
+{
+    border: 2px #344e5e1c solid;
+    margin-top: 50px;
+    border-radius: 10px 5px 10px 5px;
+  
+
+
+    
+
+
+
+}
+
+
