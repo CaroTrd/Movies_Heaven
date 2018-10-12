@@ -4,6 +4,7 @@
 
 .conteneur-image {
 	max-width: 100vw;
+	margin-top: 35px;
 }
 
 .rating {
@@ -21,4 +22,9 @@
 .rating a:focus ~ a {
    color: orange;
    cursor: pointer;
+}
+
+
+.flotte {
+float: inline-start;
 }
