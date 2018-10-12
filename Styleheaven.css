@@ -1,25 +1,107 @@
 <<<<<<< HEAD
 
-/* PAGE : LAST MOVIES PAGE */
-.titre{
-    text-align: center;
-    margin-top: 50px;
-}
-.titre h1{
-    font-weight: bold;
-    margin-bottom: 80px;
-}
-.titre p{
+/* PAGE : CRITICS*/
+
+
+#critics .titre p{
     margin-bottom: 80px;
 }
 
-figure.figure.col-sm-6.col-lg-3 {
-    padding-bottom: 15px;
-    padding-top: 15px;
+.titre h1 { text-align: center;
+    font-weight: bold;
+     font-size: 5em;
+    }
+#critics .titre h1 {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+.titre p {
+    text-align: center;
+    margin-bottom: 6em;
 }
-figure img:hover p{
-    display: block
+.titre {
+    margin-bottom: 11em;
 }
+
+
+/* les cards des films */
+.movieslist img{
+    width: 100%;
+}
+ .card-header, .metadata {
+    background: none;
+    padding: 0;
+    position: relative;
+    border-style: none;
+ }
+ 
+ .metadata {
+    font-size: 16px;
+    i, p {
+       float: left;
+    }
+    p {
+       margin-top: 0;
+       margin-left: 10px;
+    }
+    i {
+       color: #ff9d00;
+       margin-top: 5px;
+       margin-left: 1px;
+    }
+ }
+ 
+ .card-title{
+     margin: 0px;
+ }
+ .card-img {
+    -webkit-clip-path: inset(10% 0 20% 0);
+     clip-path: inset(10% 0 20% 0);
+     margin-top: -15%;
+ }
+ .card-body span{
+    text-align: right;
+ }
+ .card-body {
+    position: relative;
+    margin-top: -30%;
+    .card-title {
+       font-weight: 600;
+       color: #414345;
+    }
+    .card-text {
+        text-align: center;
+       margin-top: 8px;
+    }
+ }
+
+ .card-body p {
+    font-size: 0.77em;
+}}
+ #critics .glyphicon-star{
+    color: rgb(204, 199, 199);
+    }
+    #critics .glyphicon-star:hover{
+        color: rgb(255, 169, 57);
+        cursor: pointer;
+        }
+ 
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8pt;
+    border-style: none;
+    margin-bottom: 7em;
+}
+}
+ 
+ 
+
+
+
+
+
+
 
 
 
@@ -68,10 +150,16 @@ figure img:hover p{
 
 /* image carousel */
 
+<<<<<<< HEAD
+#accueil .carousel-item img
+{
+    height: 600px;
+=======
 #accueil img
 {   
 
     height: 650px;
+>>>>>>> c6208dd98ae76f0b7878f213413e3a2287e53c20
     width: 1200px;
 }
 .vide
@@ -117,6 +205,17 @@ footer ul
 
 }
 
+<<<<<<< HEAD
+
+/* Accueil LAST CRTICS */
+
+#lastcritics{
+    margin-top: 8em;
+}
+
+/* */
+>>>>>>> faed1f842fb2364f75baa510bda0bc124c53118f
+=======
 .texte 
 {   
     text-align: justify;
@@ -143,3 +242,4 @@ footer ul
 }
 
 
+>>>>>>> c6208dd98ae76f0b7878f213413e3a2287e53c20
