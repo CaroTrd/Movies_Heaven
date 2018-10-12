@@ -91,8 +91,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
-    overflow: hidden;
-    margin-top: -60px;
     margin-bottom: 7em;
 }
 }
@@ -210,9 +208,7 @@ footer ul
 <<<<<<< HEAD
 
 /* Accueil LAST CRTICS */
-#lastcritics .movieslist{
-    margin-top: 8em;
-} 
+
 #lastcritics{
     margin-top: 8em;
 }
