@@ -1,7 +1,6 @@
 
 /* PAGE : CRITICS*/
 
-
 #critics .titre p{
     margin-bottom: 80px;
 }
@@ -24,9 +23,16 @@
 }
 
 
+
 /* les cards des films */
+
+.movieslist.liste1 {
+    margin-top: 2em;
+}
+
 .movieslist img{
     width: 100%;
+    height: 20em;
 }
  .card-header, .metadata {
     background: none;
@@ -51,20 +57,25 @@
     }
  }
  
- .card-title{
-     margin: 0px;
- }
+ .card-title {
+    margin: 0px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 14px;
+    font-weight: bold;
+}
  .card-img {
     -webkit-clip-path: inset(10% 0 20% 0);
      clip-path: inset(10% 0 20% 0);
-     margin-top: 10%;
+     margin-top: 1em;
  }
  .card-body span{
     text-align: right;
  }
  .card-body {
+    margin-top: -11%;
     position: relative;
-    margin-top: 0%;
+    padding-top:0px;
     .card-title {
        font-weight: 600;
        color: #414345;
@@ -72,11 +83,17 @@
     .card-text {
         text-align: center;
        margin-top: 8px;
+       font-size: 1.1em;
     }
  }
 
+
  .card-body p {
-    font-size: 0.77em;
+    font-size: 1.1em;
+}
+
+p.col-6.auteur {
+    font-size: 0.8em;
 }
  #critics .glyphicon-star{
     color: rgb(204, 199, 199);
@@ -90,11 +107,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
-    margin-bottom: 7em;
+    margin-bottom: 3em;
 }
+
+.glyphicon {
+    top: 3px;
 }
- 
- 
 
 
 
@@ -159,12 +177,11 @@
     padding-top: 35px;
 }
 
-.navbar-nav a
 {
     color: white;
 }
 
-a:hover
+.navbar a:hover
 {
     color:black;
 }
@@ -231,10 +248,10 @@ footer ul
 	padding-top: 10px;
 }
 
-.conteneur-image 
-{
+.conteneur-image {
     max-width: 100vw;
     margin-top: 35px;
+    position: relative;
 }
 
 .rating {
@@ -254,10 +271,9 @@ footer ul
    cursor: pointer;
 }
 
-
-.flotte 
-{
+.flotte {
 float: left;
+<<<<<<< HEAD
 }
 
 
@@ -298,3 +314,146 @@ float: left;
     top: -60px;
 }
 
+=======
+padding-right: 10px;
+}
+
+.flotte1 {
+    float: right;
+    padding-left: 10px;
+}
+
+.card {
+    max-width: 450px;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.card-title {
+    font-weight: bold;
+    background-color: grey;
+}
+.card-text {
+    background-color: grey;
+}
+.cadre-avis {
+    text-align: center;
+    width: 30vw;
+    border: 15px white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 35%;
+    top: 120%;
+    color: black;
+}
+.cadre-avis:h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .movieslist img{
+        width: 100%;
+        height: 15em;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .movieslist img{
+        height: 13em;
+    }
+  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* Contact Us */
+
+#Contact .form-group {
+    margin-bottom: 1rem;
+    margin-right: 50%;
+    position: relative;
+    left: 300px;
+
+}
+
+#Contact h1{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    margin: 0 auto;
+}
+>>>>>>> 010630f7218f7e2bba731958abcb13aa8080d5f9
