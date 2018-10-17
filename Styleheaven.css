@@ -279,6 +279,7 @@ float: left;
 }
 
 
+<<<<<<< HEAD
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
@@ -300,3 +301,23 @@ float: left;
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
+=======
+/* Contact Us */
+
+#Contact .form-group {
+    margin-bottom: 1rem;
+    margin-right: 50%;
+    position: relative;
+    left: 300px;
+
+}
+
+#Contact h1{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    margin: 0 auto;
+}
+>>>>>>> 352eb7d5b0f35f3179a3adfa054c60f1ff68727c
