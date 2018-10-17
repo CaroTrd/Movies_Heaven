@@ -295,6 +295,10 @@ padding-right: 10px;
     top: 120%;
     color: black;
 }
+.cadre-avis:h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .rating {
   display: inline-block;
   position: relative;
