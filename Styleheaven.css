@@ -259,3 +259,23 @@ footer ul
 {
 float: left;
 }
+
+
+/* Contact Us */
+
+#Contact .form-group {
+    margin-bottom: 1rem;
+    margin-right: 50%;
+    position: relative;
+    left: 300px;
+
+}
+
+#Contact h1{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    margin: 0 auto;
+}
