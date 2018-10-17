@@ -114,13 +114,13 @@
 }
 .bg-light 
 {
-    background-color: #34495E!important;
-    box-shadow: 6px 6px 0px gray;
+    background-color: #f7f7f7!important;
+    box-shadow: 6px 6px 0px 6px 6px 0px #c510102e;
 }
 
 .navbar-light .navbar-brand
 {
-    color: rgba(255, 255, 255, 1)
+    color: rgb(0, 0, 0);
 }
 
 .navbar-brand
@@ -130,17 +130,17 @@
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
 {
-    color:rgba(255, 255, 255, 1);
+    color:rgb(0, 0, 0);
 }
 
 .navbar-light .navbar-nav .nav-link
 {
-    color:rgba(255, 255, 255, 1);
+    color:rgb(0, 0, 0);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled
 {
-    color:rgba(255, 255, 255, 1);
+    color:rgb(0, 0, 0);
 }
 .navbar
 {
@@ -159,7 +159,7 @@
     padding-top: 35px;
 }
 
-a
+.navbar-nav a
 {
     color: white;
 }
@@ -259,3 +259,42 @@ footer ul
 {
 float: left;
 }
+
+
+
+
+.container{
+    background-color: #f7f7f7;
+    opacity: 0.9;
+}
+
+#imagedefond{
+    background-image: url('https://images.pexels.com/photos/395198/pexels-photo-395198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    display: flex;
+    justify-content: center;
+}
+
+#fond{
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+#intitule{
+    display:flex;
+    position: relative;
+    top:50px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -60px;
+}
+
