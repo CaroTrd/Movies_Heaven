@@ -1,7 +1,5 @@
 
-
 /* PAGE : CRITICS*/
-
 
 #critics .titre p{
     margin-bottom: 80px;
@@ -25,9 +23,16 @@
 }
 
 
+
 /* les cards des films */
+
+.movieslist.liste1 {
+    margin-top: 2em;
+}
+
 .movieslist img{
     width: 100%;
+    height: 20em;
 }
  .card-header, .metadata {
     background: none;
@@ -52,20 +57,25 @@
     }
  }
  
- .card-title{
-     margin: 0px;
- }
+ .card-title {
+    margin: 0px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 14px;
+    font-weight: bold;
+}
  .card-img {
     -webkit-clip-path: inset(10% 0 20% 0);
      clip-path: inset(10% 0 20% 0);
-     margin-top: -15%;
+     margin-top: 1em;
  }
  .card-body span{
     text-align: right;
  }
  .card-body {
+    margin-top: -11%;
     position: relative;
-    margin-top: -30%;
+    padding-top:0px;
     .card-title {
        font-weight: 600;
        color: #414345;
@@ -73,12 +83,18 @@
     .card-text {
         text-align: center;
        margin-top: 8px;
+       font-size: 1.1em;
     }
  }
 
+
  .card-body p {
-    font-size: 0.77em;
-}}
+    font-size: 1.1em;
+}
+
+p.col-6.auteur {
+    font-size: 0.8em;
+}
  #critics .glyphicon-star{
     color: rgb(204, 199, 199);
     }
@@ -91,11 +107,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
-    margin-bottom: 7em;
+    margin-bottom: 3em;
 }
+
+.glyphicon {
+    top: 3px;
 }
- 
- 
 
 
 
@@ -148,6 +165,7 @@
     margin: 0px;
 }
 
+
 /* image carousel */
 #accueil img
 {
@@ -159,12 +177,12 @@
     padding-top: 35px;
 }
 
-a
+.navbar a
 {
     color: white;
 }
 
-a:hover
+.navbar a:hover
 {
     color:black;
 }
@@ -203,10 +221,7 @@ footer ul
 #lastcritics{
     margin-top: 8em;
 }
-.card-img
-{
-    margin-top: -20%;
-}
+
 
 /* */
 
@@ -225,10 +240,7 @@ footer ul
     border-radius: 10px 5px 10px 5px;
 }
 
-.card-body
-{
-    margin-top: -45%;
-}
+
 
 /* Interstelar */
 
@@ -259,7 +271,6 @@ footer ul
    color: orange;
    cursor: pointer;
 }
-
 
 .flotte {
 float: left;
@@ -363,4 +374,44 @@ padding-right: 10px;
 .rating label input:focus:not(:checked) ~ .icon:last-child {
   color: #000;
   text-shadow: 0 0 5px #09f;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .movieslist img{
+        width: 100%;
+        height: 15em;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .movieslist img{
+        height: 13em;
+    }
+  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* Contact Us */
+
+#Contact .form-group {
+    margin-bottom: 1rem;
+    margin-right: 50%;
+    position: relative;
+    left: 300px;
+
+}
+
+#Contact h1{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    margin: 0 auto;
 }
