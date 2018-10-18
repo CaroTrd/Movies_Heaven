@@ -438,4 +438,24 @@ padding-right: 10px;
     margin-bottom: 40px;
 }
 
+#contact h1
+{
+    text-align: center;
 
+
+}
+
+#contact #inputMessage
+{
+    width: 520px;
+}
+
+#contact .form-row
+{
+    flex-direction: column-reverse;
+}
+
+#contact #contenu
+{
+    justify-content: center;
+}
