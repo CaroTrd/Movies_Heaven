@@ -162,11 +162,7 @@ div#pagination {
 } 
 }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    #Critics .movieslist img { 
-    } 
- }
+
 
 
 
@@ -498,6 +494,7 @@ footer ul
     justify-content: center;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -593,3 +590,18 @@ input[type="file"]{
     cursor: pointer;
 }
 .custom-input-file:hover .uploadPhoto { display: block; }
+=======
+#message .form-control
+{
+    height: 30vw;
+    width:100%;
+}
+.prout {
+    max-width: 50%;
+}
+@media screen and (max-width:768px){
+    .prout{
+        max-width: 100%;
+    }
+}
+>>>>>>> 781de02e50884eebd0d54b600201e68c14e7b848
