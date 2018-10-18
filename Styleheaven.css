@@ -1,7 +1,26 @@
-
 /* PAGE : CRITICS*/
 
-#critics .titre p{
+#Critics #descriptionpage {
+    text-align: center;
+    margin-bottom: 8em;
+    width: 43em;
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+#Critics #titrepage {
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+#Critics h2 {
+    text-align: left;
+    margin-bottom: 1em;
+    background-color: #34495E;
+    color: white;
+    padding: 0.4em;
+}
+#Critics .titre p{
     margin-bottom: 80px;
 }
 
@@ -9,7 +28,7 @@
     font-weight: bold;
      font-size: 5em;
     }
-#critics .titre h1 {
+#Critics .titre h1 {
         margin-bottom: 1em;
         margin-top: 1em;
     }
@@ -23,13 +42,7 @@
 }
 
 
-
 /* les cards des films */
-
-.movieslist.liste1 {
-    margin-top: 2em;
-}
-
 .movieslist img{
     width: 100%;
     height: 20em;
@@ -73,8 +86,8 @@
     text-align: right;
  }
  .card-body {
-    margin-top: -11%;
     position: relative;
+    margin-top: -2em;
     padding-top:0px;
     .card-title {
        font-weight: 600;
@@ -95,27 +108,65 @@
 p.col-6.auteur {
     font-size: 0.8em;
 }
- #critics .glyphicon-star{
+ #Critics .glyphicon-star{
     color: rgb(204, 199, 199);
+    } 
+#Critics .color{
+        color: #007bff;
     }
-    #critics .glyphicon-star:hover{
-        color: rgb(255, 169, 57);
-        cursor: pointer;
-        }
- 
  .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
     margin-bottom: 3em;
 }
+.card-body a {
+    color: black;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.card-body a:hover{
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+}
 
-.glyphicon {
+#Critics a.seecritic:hover {
+    color: black;
+}
+i.glyphicon.glyphicon-menu-right {
     top: 3px;
 }
 
 
+div#pagination {
+    text-align: center;
+}
 
+
+
+
+/* MEDIAQUERIES PAGE CRITICS */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { .movieslist img {
+    width: 100%;
+    height: 18em;
+} }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 991px) { 
+    #Critics .movieslist img {
+    width: 100%;
+    height: 13em;
+} 
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #Critics .movieslist img { 
+    } 
+ }
 
 
 
@@ -190,7 +241,6 @@ footer ul
     margin-top: 10px;
     list-style: none;
     color: black;
-    box-shadow: 6px 6px 0px gray;
 }
 
 /* About us */
@@ -327,19 +377,6 @@ padding-right: 10px;
 .flotte1 {
     float: right;
     padding-left: 10px;
-}
-
-.card {
-    max-width: 450px;
-    margin-top: 100px;
-    margin-left: 550px;
-}
-.card-title {
-    font-weight: bold;
-    background-color: grey;
-}
-.card-text {
-    background-color: grey;
 }
 .cadre-avis {
     text-align: center;
