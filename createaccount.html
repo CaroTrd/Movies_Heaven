@@ -12,7 +12,7 @@
 
     <title>MoviesHeaven</title>
   </head>
-  <body>
+  <body id="imagedefond">
   <section id="misenpage">
         <div>
             <form method="post" action="traitement.php">
@@ -22,18 +22,49 @@
                     <input type="name" name="F.Name" class="form-control input-lg" id="inputf.name" maxlength="18" placeholder="First name" required /><br/>
                     <label for="l.name"> Last Name </label>
                     <input type="name" name="L.Name" class="form-control input-lg" id="inputl.name" maxlength="18" placeholder=" Last name" required /><br/>
-                    <label><input type="checkbox" name="terms"> Male </label>   <label><input type="checkbox" name="terms"> Female </label><br/> 
-                    <br/><label for="Email"> Email Address </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+                            Male
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+                            Female
+                        </label><br/>
+                    <br/><label for="">
+                            Birth Date</label>
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control">
+                                    <option value="Month">Month</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control">
+                                    <option value="Day">Day</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control">
+                                    <option value="Year">Year</option>
+                                </select>
+                            </div>
+                        </div><br/>
+                    <br><label for="Email"> Email Address </label>
                     <input type="email" name="Email" class="form-control input-lg" id="inputEmail" maxlength="18" placeholder="Email address" required /><br/> 
                     <label for="username"> Username </label>
                     <input type="username" name="Username" class="form-control input-lg" id="inputl.name" maxlength="18" placeholder="ID" required /><br/>
-                    <label for="password"> </label>
+                    <label for="password"> Password</label>
+                    <input type="password" class="form-control input-lg" id="inputPassword" placeholder="Password" required/><br/>
+                    <label for="c.password"> Confirm Password</label>
                     <input type="password" class="form-control input-lg" id="inputPassword" placeholder="Password" required/><br/>
                     <div id="remember" class="checkbox">
-                        <label><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label>
+                        <label><input type="checkbox" name="terms"> I agree with the <a href="#" >Terms and Conditions</a>.</label>
                     </div>
                     <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"> Sign up </button>
                 </div>
+            </form>
+        </div>
+    </section>
 <!------  ---------->
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>

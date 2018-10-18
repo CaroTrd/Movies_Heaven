@@ -164,6 +164,11 @@ div#pagination {
 } 
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
 
 
 
@@ -237,7 +242,6 @@ footer ul
     margin-top: 10px;
     list-style: none;
     color: black;
-    box-shadow: 6px 6px 0px gray;
 }
 
 /* About us */
@@ -266,7 +270,7 @@ footer ul
 
 /* */
 
-.texte 
+.description
 {   
     text-align: justify;
     padding: 20px;
@@ -291,10 +295,12 @@ footer ul
 {
 	padding-top: 10px;
 }
-
+.flexbox {
+    margin-top: 35px;
+    position: relative;
+}
 .conteneur-image {
     max-width: 100vw;
-    margin-top: 35px;
     position: relative;
 }
 
@@ -313,10 +319,6 @@ footer ul
 .rating a:focus ~ a {
    color: orange;
    cursor: pointer;
-}
-
-.flotte {
-float: left;
 }
 
 
@@ -367,11 +369,14 @@ float: left;
     margin-top: 3em;
 }
 
+<<<<<<< HEAD
 
 .flotte1 {
     float: right;
     padding-left: 10px;
 }
+=======
+>>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
 .cadre-avis {
     text-align: center;
     width: 30vw;
@@ -381,19 +386,20 @@ float: left;
     border-radius: 10px;
     position: absolute;
     left: 35%;
-    top: 120%;
+    top: 50vw;
     color: black;
 }
-.cadre-avis:h3 {
+.rating-text {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 2vw;
 }
 .rating {
   display: inline-block;
   position: relative;
-  height: 50px;
-  line-height: 50px;
-  font-size: 50px;
+  height: 5vw;
+  line-height: 5vw;
+  font-size: 4vw;
 }
 
 .rating label {
@@ -453,8 +459,21 @@ float: left;
   color: #000;
   text-shadow: 0 0 5px #09f;
 }
-
-
+.float-right {
+    margin-left: 5px;
+    max-width: 100vw;
+    margin-right: 50px;
+}
+.float-left {
+    margin-right: 5px;
+    max-width: 100vw;
+    margin-left: 50px;
+}
+.texte p {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 50px;
+}
 
 /* Contact Us */
 
@@ -469,4 +488,147 @@ float: left;
     margin-bottom: 40px;
 }
 
+#contact h1
+{
+    text-align: center;
 
+
+}
+
+#contact #inputMessage
+{
+    width: 520px;
+}
+
+#contact .form-row
+{
+    flex-direction: column-reverse;
+}
+
+#contact #contenu
+{
+    justify-content: center;
+}
+
+<<<<<<< HEAD
+
+
+
+
+/*
+    Image credits:
+    uifaces.com (http://uifaces.com/authorized)
+*/
+
+#login { display: none; }
+.login,
+.logout { 
+    position: absolute; 
+    top: -3px;
+    right: 0;
+}
+.page-header { position: relative; }
+.reviews {
+    color: #555;    
+    font-weight: bold;
+    margin: 10px auto 20px;
+}
+.notes {
+    color: #999;
+    font-size: 12px;
+}
+.media .media-object { max-width: 120px; }
+.media-body { position: relative; }
+.media-date { 
+    position: absolute; 
+    right: 25px;
+    top: 25px;
+}
+.media-date li { padding: 0; }
+.media-date li:first-child:before { content: ''; }
+.media-date li:before { 
+    content: '.'; 
+    margin-left: -2px; 
+    margin-right: 2px;
+}
+.media-comment { margin-bottom: 20px; }
+.media-replied { margin: 0 0 20px 50px; }
+.media-replied .media-heading { padding-left: 6px; }
+
+.btn-circle {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.btn-circle span { padding-right: 6px; }
+.embed-responsive { margin-bottom: 20px; }
+.tab-content {
+    padding: 50px 15px;
+    border: 1px solid #ddd;
+    border-top: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.custom-input-file {
+    overflow: hidden;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #eee url('https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg');    
+    background-size: 120px;
+    border-radius: 120px;
+}
+input[type="file"]{
+    z-index: 999;
+    line-height: 0;
+    font-size: 0;
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+    margin: 0;
+    padding:0;
+    left:0;
+}
+.uploadPhoto {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: none;
+    width: 50%;
+    height: 50%;
+    color: #fff;    
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;    
+    background-color: rgba(0,0,0,.3);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.custom-input-file:hover .uploadPhoto { display: block; }
+.prout .form-control {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.prout {
+    max-width: 50%;
+}
+@media screen and (max-width:768px){
+    .prout{
+        max-width: 100%;
+    }
+}
