@@ -24,7 +24,7 @@
     margin-bottom: 80px;
 }
 
-.titre h1 { text-align: center;
+#Critics .titre h1 { text-align: center;
     font-weight: bold;
      font-size: 5em;
     }
@@ -33,79 +33,82 @@
         margin-top: 1em;
     }
 
-.titre p {
+    #Critics .titre p {
     text-align: center;
     margin-bottom: 6em;
 }
-.titre {
+#Critics .titre {
     margin-bottom: 11em;
 }
 
 
 /* les cards des films */
-.movieslist img{
+#Critics .movieslist img{
     width: 100%;
     height: 20em;
 }
- .card-header, .metadata {
+#Critics .card-header, .metadata {
     background: none;
     padding: 0;
     position: relative;
     border-style: none;
  }
  
- .metadata {
+ #Critics .metadata {
     font-size: 16px;
-    i, p {
+}
+#Critics .metadata i, .metadata p {
        float: left;
     }
-    p {
+    #Critics .metadata p {
        margin-top: 0;
        margin-left: 10px;
     }
-    i {
+    #Critics .metadata i {
        color: #ff9d00;
        margin-top: 5px;
        margin-left: 1px;
     }
- }
  
- .card-title {
+ 
+    #Critics .card-title {
     margin: 0px;
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 14px;
     font-weight: bold;
 }
- .card-img {
+#Critics .card-img {
     -webkit-clip-path: inset(10% 0 20% 0);
      clip-path: inset(10% 0 20% 0);
      margin-top: 1em;
  }
- .card-body span{
+ #Critics .card-body span{
     text-align: right;
  }
- .card-body {
+ #Critics .card-body {
     position: relative;
-    margin-top: -2em;
+    margin-top: 0.5em;
     padding-top:0px;
-    .card-title {
+}
+#Critics .card-body .card-title {
        font-weight: 600;
        color: #414345;
     }
-    .card-text {
-        text-align: center;
+    #Critics .card-body   .card-text {
+        text-align: left;
        margin-top: 8px;
        font-size: 1.1em;
+       margin-bottom: 22px;
     }
- }
+ 
 
 
- .card-body p {
-    font-size: 1.1em;
+    #Critics .card-body p {
+    text-align: left;
 }
 
-p.col-6.auteur {
+.auteur {
     font-size: 0.8em;
 }
  #Critics .glyphicon-star{
@@ -114,18 +117,18 @@ p.col-6.auteur {
 #Critics .color{
         color: #007bff;
     }
- .card {
+    #Critics .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
     margin-bottom: 3em;
 }
-.card-body a {
+#Critics .card-body a {
     color: black;
     margin-top: 10px;
     text-decoration: underline;
 }
-.card-body a:hover{
+#Critics .card-body a:hover{
     color: black;
     margin-top: 10px;
     text-decoration: none;
@@ -162,8 +165,11 @@ div#pagination {
 } 
 }
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
 
 
 
@@ -197,19 +203,19 @@ div#pagination {
 {
     color:black;
 }
-}
+
 
 .navbar-light .navbar-nav .nav-link
 {
     color:black;
 }
-}
+
 
 .navbar-light .navbar-nav .nav-link.disabled
 {
     color:black;
 }
-}
+
 .navbar
 {
     margin: 0px;
@@ -364,6 +370,14 @@ footer ul
     margin-top: 3em;
 }
 
+<<<<<<< HEAD
+
+.flotte1 {
+    float: right;
+    padding-left: 10px;
+}
+=======
+>>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
 .cadre-avis {
     text-align: center;
     width: 30vw;
@@ -449,14 +463,17 @@ footer ul
 .float-right {
     margin-left: 5px;
     max-width: 100vw;
+    margin-right: 50px;
 }
 .float-left {
     margin-right: 5px;
     max-width: 100vw;
+    margin-left: 50px;
 }
-.texte {
+.texte p {
     font-size: 1.3em;
     font-weight: bold;
+    margin: 50px;
 }
 
 /* Contact Us */
