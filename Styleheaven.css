@@ -265,7 +265,7 @@ footer ul
 
 /* */
 
-.texte 
+.description
 {   
     text-align: justify;
     padding: 20px;
@@ -507,3 +507,5 @@ footer ul
         max-width: 100%;
     }
 }
+
+/* password */
