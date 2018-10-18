@@ -1,11 +1,13 @@
-
 /* PAGE : CRITICS*/
+#critics h1, h2, .titre p{
+    text-align: center;
+}
 
 #critics .titre p{
     margin-bottom: 80px;
 }
 
-#critics.titre h1 { text-align: center;
+.titre h1 { text-align: center;
     font-weight: bold;
      font-size: 5em;
     }
@@ -14,34 +16,28 @@
         margin-top: 1em;
     }
 
-#critics .titre p {
+.titre p {
     text-align: center;
     margin-bottom: 6em;
 }
-#critics .#critics titre {
+.titre {
     margin-bottom: 11em;
 }
 
 
-
 /* les cards des films */
-
-#critics .movieslist.liste1 {
-    margin-top: 2em;
-}
-
-#critics .movieslist img{
+.movieslist img{
     width: 100%;
     height: 20em;
 }
-#critics .card-header, .metadata {
+ .card-header, .metadata {
     background: none;
     padding: 0;
     position: relative;
     border-style: none;
  }
  
- #critics .metadata {
+ .metadata {
     font-size: 16px;
     i, p {
        float: left;
@@ -57,24 +53,24 @@
     }
  }
  
- #critics .card-title {
+ .card-title {
     margin: 0px;
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 14px;
     font-weight: bold;
 }
- #critics .card-img {
+ .card-img {
     -webkit-clip-path: inset(10% 0 20% 0);
      clip-path: inset(10% 0 20% 0);
      margin-top: 1em;
  }
- #critics .card-body span{
+ .card-body span{
     text-align: right;
  }
- #critics .card-body {
-    margin-top: -11%;
+ .card-body {
     position: relative;
+    margin-top: 0%;
     padding-top:0px;
     .card-title {
        font-weight: 600;
@@ -88,11 +84,11 @@
  }
 
 
- #critics .card-body p {
+ .card-body p {
     font-size: 1.1em;
 }
 
-#critics p.col-6.auteur {
+p.col-6.auteur {
     font-size: 0.8em;
 }
  #critics .glyphicon-star{
@@ -103,19 +99,26 @@
         cursor: pointer;
         }
  
- #critics .card {
+ .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
     margin-bottom: 3em;
 }
 
-#critics .glyphicon {
-    top: 3px;
+ 
+
+.card-body a {
+    color: black;
+    margin-top: 10px;
 }
 
-
-
+#critic a.seecritic:hover {
+    color: black;
+}
+i.glyphicon.glyphicon-menu-right {
+    top: 3px;
+}
 
 
 
