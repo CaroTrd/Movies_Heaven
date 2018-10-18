@@ -88,7 +88,7 @@
  }
  #Critics .card-body {
     position: relative;
-    margin-top: 2em;
+    margin-top: 0.5em;
     padding-top:0px;
 }
 #Critics .card-body .card-title {
@@ -96,18 +96,19 @@
        color: #414345;
     }
     #Critics .card-body   .card-text {
-        text-align: center;
+        text-align: left;
        margin-top: 8px;
        font-size: 1.1em;
+       margin-bottom: 22px;
     }
  
 
 
     #Critics .card-body p {
-    font-size: 1.1em;
+    text-align: left;
 }
 
-p.col-6.auteur {
+.auteur {
     font-size: 0.8em;
 }
  #Critics .glyphicon-star{
