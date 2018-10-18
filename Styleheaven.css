@@ -449,14 +449,17 @@ footer ul
 .float-right {
     margin-left: 5px;
     max-width: 100vw;
+    margin-right: 50px;
 }
 .float-left {
     margin-right: 5px;
     max-width: 100vw;
+    margin-left: 50px;
 }
-.texte {
+.texte p {
     font-size: 1.3em;
     font-weight: bold;
+    margin: 50px;
 }
 
 /* Contact Us */
