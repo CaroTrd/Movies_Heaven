@@ -461,6 +461,11 @@ footer ul
 
 /* Contact Us */
 
+
+#sub{
+    display: flex;
+    justify-content: center;
+}
 #contact
 {
     border: 2px #344e5e1c solid;
@@ -484,20 +489,20 @@ footer ul
     width: 520px;
 }
 
-#contact .form-row
-{
-    flex-direction: column-reverse;
-}
 
 #contact #contenu
 {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-
-
-
+.prout {
+    max-width: 50%;
+}
+@media screen and (max-width:768px){
+    .prout{
+        max-width: 100%;
+    }
+}
 
 /*
     Image credits:
@@ -608,11 +613,4 @@ input[type="file"]{
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-.prout {
-    max-width: 50%;
-}
-@media screen and (max-width:768px){
-    .prout{
-        max-width: 100%;
-    }
-}
+
