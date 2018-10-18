@@ -5,7 +5,7 @@
     margin-bottom: 80px;
 }
 
-.titre h1 { text-align: center;
+#critics.titre h1 { text-align: center;
     font-weight: bold;
      font-size: 5em;
     }
@@ -14,11 +14,11 @@
         margin-top: 1em;
     }
 
-.titre p {
+#critics .titre p {
     text-align: center;
     margin-bottom: 6em;
 }
-.titre {
+#critics .#critics titre {
     margin-bottom: 11em;
 }
 
@@ -26,22 +26,22 @@
 
 /* les cards des films */
 
-.movieslist.liste1 {
+#critics .movieslist.liste1 {
     margin-top: 2em;
 }
 
-.movieslist img{
+#critics .movieslist img{
     width: 100%;
     height: 20em;
 }
- .card-header, .metadata {
+#critics .card-header, .metadata {
     background: none;
     padding: 0;
     position: relative;
     border-style: none;
  }
  
- .metadata {
+ #critics .metadata {
     font-size: 16px;
     i, p {
        float: left;
@@ -57,22 +57,22 @@
     }
  }
  
- .card-title {
+ #critics .card-title {
     margin: 0px;
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 14px;
     font-weight: bold;
 }
- .card-img {
+ #critics .card-img {
     -webkit-clip-path: inset(10% 0 20% 0);
      clip-path: inset(10% 0 20% 0);
      margin-top: 1em;
  }
- .card-body span{
+ #critics .card-body span{
     text-align: right;
  }
- .card-body {
+ #critics .card-body {
     margin-top: -11%;
     position: relative;
     padding-top:0px;
@@ -88,11 +88,11 @@
  }
 
 
- .card-body p {
+ #critics .card-body p {
     font-size: 1.1em;
 }
 
-p.col-6.auteur {
+#critics p.col-6.auteur {
     font-size: 0.8em;
 }
  #critics .glyphicon-star{
@@ -103,14 +103,14 @@ p.col-6.auteur {
         cursor: pointer;
         }
  
- .card {
+ #critics .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
     margin-bottom: 3em;
 }
 
-.glyphicon {
+#critics .glyphicon {
     top: 3px;
 }
 
