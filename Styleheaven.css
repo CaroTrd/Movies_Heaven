@@ -24,7 +24,7 @@
     margin-bottom: 80px;
 }
 
-.titre h1 { text-align: center;
+#Critics .titre h1 { text-align: center;
     font-weight: bold;
      font-size: 5em;
     }
@@ -33,75 +33,77 @@
         margin-top: 1em;
     }
 
-.titre p {
+    #Critics .titre p {
     text-align: center;
     margin-bottom: 6em;
 }
-.titre {
+#Critics .titre {
     margin-bottom: 11em;
 }
 
 
 /* les cards des films */
-.movieslist img{
+#Critics .movieslist img{
     width: 100%;
     height: 20em;
 }
- .card-header, .metadata {
+#Critics .card-header, .metadata {
     background: none;
     padding: 0;
     position: relative;
     border-style: none;
  }
  
- .metadata {
+ #Critics .metadata {
     font-size: 16px;
-    i, p {
+}
+#Critics .metadata i, .metadata p {
        float: left;
     }
-    p {
+    #Critics .metadata p {
        margin-top: 0;
        margin-left: 10px;
     }
-    i {
+    #Critics .metadata i {
        color: #ff9d00;
        margin-top: 5px;
        margin-left: 1px;
     }
- }
  
- .card-title {
+ 
+    #Critics .card-title {
     margin: 0px;
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 14px;
     font-weight: bold;
 }
- .card-img {
+#Critics .card-img {
     -webkit-clip-path: inset(10% 0 20% 0);
      clip-path: inset(10% 0 20% 0);
      margin-top: 1em;
  }
- .card-body span{
+ #Critics .card-body span{
     text-align: right;
  }
- .card-body {
+ #Critics .card-body {
     position: relative;
-    margin-top: -2em;
+    margin-top: 2em;
     padding-top:0px;
-    .card-title {
+}
+#Critics .card-body .card-title {
        font-weight: 600;
        color: #414345;
     }
-    .card-text {
+    #Critics .card-body   .card-text {
         text-align: center;
        margin-top: 8px;
        font-size: 1.1em;
     }
- }
+ 
 
 
- .card-body p {
+    #Critics .card-body p {
     font-size: 1.1em;
 }
 
@@ -114,18 +116,18 @@ p.col-6.auteur {
 #Critics .color{
         color: #007bff;
     }
- .card {
+    #Critics .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8pt;
     border-style: none;
     margin-bottom: 3em;
 }
-.card-body a {
+#Critics .card-body a {
     color: black;
     margin-top: 10px;
     text-decoration: underline;
 }
-.card-body a:hover{
+#Critics .card-body a:hover{
     color: black;
     margin-top: 10px;
     text-decoration: none;
@@ -162,12 +164,6 @@ div#pagination {
 } 
 }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    #Critics .movieslist img { 
-    } 
- }
-
 
 
 
@@ -201,19 +197,19 @@ div#pagination {
 {
     color:black;
 }
-}
+
 
 .navbar-light .navbar-nav .nav-link
 {
     color:black;
 }
-}
+
 
 .navbar-light .navbar-nav .nav-link.disabled
 {
     color:black;
 }
-}
+
 .navbar
 {
     margin: 0px;
@@ -371,9 +367,6 @@ float: left;
     margin-top: 3em;
 }
 
-======= changements des autres 
-padding-right: 10px;
-}
 
 .flotte1 {
     float: right;
