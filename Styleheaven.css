@@ -405,8 +405,7 @@ footer ul
     position: relative;
 }
 .conteneur-image {
-    max-width: 100vw;
-    position: relative;
+    max-width: 100%;
 }
 
 .rating {
@@ -427,53 +426,6 @@ footer ul
 }
 
 
-
-
-/* LogIn */
-
-#imagedefond{
-    background-image: url('https://images.pexels.com/photos/395198/pexels-photo-395198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    display: flex;
-    justify-content: center;
-}
-
-#fond{
-    background-color: white;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    width: 400px;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10em;
-}
-
-#intitule{
-    display:flex;
-    position: relative;
-    top:50px;
-
-}
-.logo{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -15px;
-    left: 22px;
-}
-
-/* Sign Up */
-
-#misenpage{
-    background-color: white;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    margin-top: 3em;
-}
-
 .flotte1 {
     float: right;
     padding-left: 10px;
@@ -487,8 +439,8 @@ footer ul
     background-color: white;
     border-radius: 10px;
     position: absolute;
-    left: 35%;
-    top: 50vw;
+    left: 32%;
+    top: 42vw;
     color: black;
 }
 .rating-text {
@@ -502,6 +454,18 @@ footer ul
   height: 5vw;
   line-height: 5vw;
   font-size: 4vw;
+}
+
+.btn-warning
+{
+    background-color: #314f6f;
+    border-color: #ffffff;
+}
+
+.btn-info
+{
+    background-color: #337ab7;
+    border-color: #ffffff;
 }
 
 .rating label {
@@ -563,18 +527,21 @@ footer ul
 }
 .float-right {
     margin-left: 5px;
-    max-width: 100vw;
+    max-width: 100%;
     margin-right: 50px;
 }
 .float-left {
     margin-right: 5px;
-    max-width: 100vw;
-    margin-left: 50px;
+    max-width: 100%;
 }
 .texte p {
     font-size: 1.3em;
-    font-weight: bold;
     margin: 50px;
+}
+
+.texte h2
+{
+    font-style: italic;
 }
 
 /* Contact Us */
@@ -620,6 +587,52 @@ footer ul
     .prout{
         max-width: 100%;
     }
+}
+
+
+/* LogIn */
+
+#imagedefond{
+    background-image: url('https://images.pexels.com/photos/395198/pexels-photo-395198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    display: flex;
+    justify-content: center;
+}
+
+#fond{
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+#intitule{
+    display:flex;
+    position: relative;
+    top:50px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    left: 22px;
+}
+
+/* Sign Up */
+
+#misenpage{
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
 }
 
 /*
