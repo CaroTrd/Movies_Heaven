@@ -1,3 +1,117 @@
+/* Acceuil css */
+
+/* Navbar */
+.sticky-top
+{
+    margin-top: 10px;
+}
+.bg-light 
+{
+    background-color: black!important;
+    box-shadow: 6px 6px 0px 6px 6px 0px #c510102e;
+}
+
+.navbar-light .navbar-brand
+{
+    color: white;
+}
+
+
+.navbar-brand
+{
+    font-size: 2.1em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+{
+    color:white;
+}
+
+
+.navbar-light .navbar-nav .nav-link
+{
+    color:white;
+}
+
+
+
+.navbar
+{
+    margin: 0px;
+}
+
+
+
+
+/* image carousel */
+#accueil img
+{
+    height: 47vw;
+    width: 20vw;
+}
+.vide
+{
+    padding-top: 35px;
+}
+
+
+footer ul
+{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+}
+a.navbar-brand.disabled:hover {
+    color:#d0cbcb;
+}
+
+/* About us */
+
+
+.principal
+{
+    text-align: center;
+    font-size: 3em;
+    margin: 50px;
+    background-color: #34495E;
+    opacity: 0.9;
+    box-shadow: 6px 6px 0px gray;
+    color: white;
+    padding: 10px;
+
+}
+
+
+/* Accueil LAST CRTICS */
+
+#lastcritics{
+    margin-top: 8em;
+}
+
+
+/* */
+
+.description
+{   
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.3em;
+    color: black;
+
+}
+    #about
+{
+    border: 2px #344e5e1c solid;
+    margin-top: 50px;
+    border-radius: 10px 5px 10px 5px;
+    background-color: #f7f7f7;
+    opacity: 0.9;
+}
+
+
 /* PAGE : CRITICS*/
 
 #Critics #descriptionpage {
@@ -165,129 +279,6 @@ div#pagination {
 } 
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
-
-
-
-
-
-
-/* Acceuil css */
-
-/* Navbar */
-.sticky-top
-{
-    margin-top: 10px;
-}
-.bg-light 
-{
-    background-color: #ecececbf!important;
-    box-shadow: 6px 6px 0px 6px 6px 0px #c510102e;
-}
-
-.navbar-light .navbar-brand
-{
-    color: rgb(0, 0, 0);
-}
-
-.navbar-brand
-{
-    font-size: 2.1em;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
-{
-    color:black;
-}
-
-
-.navbar-light .navbar-nav .nav-link
-{
-    color:black;
-}
-
-
-.navbar-light .navbar-nav .nav-link.disabled
-{
-    color:black;
-}
-
-.navbar
-{
-    margin: 0px;
-}
-
-
-
-/* image carousel */
-#accueil img
-{
-    height: 47vw;
-    width: 20vw;
-}
-.vide
-{
-    padding-top: 35px;
-}
-
-
-footer ul
-{
-    background-color: #ecececbf;
-    padding: 10px;
-    text-align: center;
-    margin-top: 10px;
-    list-style: none;
-    color: black;
-}
-
-/* About us */
-
-
-.principal
-{
-    text-align: center;
-    font-size: 3em;
-    margin: 50px;
-    background-color: #34495E;
-    opacity: 0.9;
-    box-shadow: 6px 6px 0px gray;
-    color: white;
-    padding: 10px;
-
-}
-
-
-/* Accueil LAST CRTICS */
-
-#lastcritics{
-    margin-top: 8em;
-}
-
-
-/* */
-
-.description
-{   
-    text-align: justify;
-    padding: 20px;
-    font-size: 1.3em;
-    color: black;
-
-}
-    #about
-{
-    border: 2px #344e5e1c solid;
-    margin-top: 50px;
-    border-radius: 10px 5px 10px 5px;
-    background-color: #f7f7f7;
-    opacity: 0.9;
-}
-
 
 
 /* Interstelar */
@@ -370,14 +361,12 @@ footer ul
     margin-top: 3em;
 }
 
-<<<<<<< HEAD
 
 .flotte1 {
     float: right;
     padding-left: 10px;
 }
-=======
->>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
+
 .cadre-avis {
     text-align: center;
     width: 30vw;
