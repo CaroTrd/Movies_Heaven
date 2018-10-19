@@ -170,12 +170,6 @@ div#pagination {
     width: 50%;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
-
 
 
 
@@ -375,14 +369,13 @@ footer ul
     margin-top: 3em;
 }
 
-<<<<<<< HEAD
+
 
 .flotte1 {
     float: right;
     padding-left: 10px;
 }
-=======
->>>>>>> 2a581f7fe3202ad1a3d749d2d4fe5978d7cb88de
+
 .cadre-avis {
     text-align: center;
     width: 30vw;
@@ -483,6 +476,11 @@ footer ul
 
 /* Contact Us */
 
+
+#sub{
+    display: flex;
+    justify-content: center;
+}
 #contact
 {
     border: 2px #344e5e1c solid;
@@ -506,20 +504,20 @@ footer ul
     width: 520px;
 }
 
-#contact .form-row
-{
-    flex-direction: column-reverse;
-}
 
 #contact #contenu
 {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-
-
-
+.prout {
+    max-width: 50%;
+}
+@media screen and (max-width:768px){
+    .prout{
+        max-width: 100%;
+    }
+}
 
 /*
     Image credits:
@@ -630,11 +628,4 @@ input[type="file"]{
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-.prout {
-    max-width: 50%;
-}
-@media screen and (max-width:768px){
-    .prout{
-        max-width: 100%;
-    }
-}
+
