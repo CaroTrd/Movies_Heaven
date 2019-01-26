@@ -1,6 +1,7 @@
-#projet-1echo # projet-1
-#Audrey 
-#Felix
+#projet-1
 
-#Arthur
-#arthur
+Contributeurs :
+#Audrey Masamba
+#Carolina Tirado
+#Felix Bonaert
+#Arthur Thill
